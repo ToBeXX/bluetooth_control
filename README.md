@@ -1,0 +1,3 @@
+# biuetooth_control
+该源码为本人的毕业设计，用到的是Android eclipse进行安卓开发，Arduino　UNO 为硬件开发
+实现的功能是能够用安卓手机通过蓝牙与arduin开发板进行通信，对思路继电器进行开关控制
