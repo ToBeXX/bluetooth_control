@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/RelativeLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff" >
+
+    <ListView
+        android:id="@+id/in"
+        android:layout_width="0.01dp"
+        android:layout_height="0.01dp"
+        android:stackFromBottom="true" />
+
+    <Button
+        android:id="@+id/closebutton1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/openbutton1"
+        android:layout_alignBottom="@+id/openbutton1"
+        android:layout_alignParentRight="true"
+        android:text="关闭开关1"
+        android:textSize="25sp" />
+
+    <Button
+        android:id="@+id/openbutton1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/maincontentbtn"
+        android:layout_marginTop="20dp"
+        android:text="打开开关１"
+        android:textSize="25sp" />
+
+    <Button
+        android:id="@+id/closebutton2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/openbutton2"
+        android:layout_alignBottom="@+id/openbutton2"
+        android:layout_alignParentRight="true"
+        android:text="关闭开关2"
+        android:textSize="25sp" />
+
+    <Button
+        android:id="@+id/openbutton3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/openbutton2"
+        android:layout_marginTop="32dp"
+        android:text="打开开关３"
+        android:textSize="25sp" />
+
+    <Button
+        android:id="@+id/closebutton3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/openbutton3"
+        android:layout_alignBottom="@+id/openbutton3"
+        android:layout_alignParentRight="true"
+        android:text="关闭开关3"
+        android:textSize="25sp" />
+
+    <Button
+        android:id="@+id/closebutton4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/closebutton3"
+        android:layout_marginTop="37dp"
+        android:text="关闭开关4"
+        android:textColor="#000000"
+        android:textSize="25sp" />
+
+    <Button
+        android:id="@+id/openbutton4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/closebutton4"
+        android:layout_alignBottom="@+id/closebutton4"
+        android:layout_alignParentLeft="true"
+        android:text="打开开关４"
+        android:textColor="#000000"
+        android:textSize="25sp" />
+
+    <Button
+        android:id="@+id/openbutton2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/openbutton1"
+        android:layout_marginTop="22dp"
+        android:text="打开开关２"
+        android:textSize="25sp" />
+
+    <Button
+        android:id="@+id/maincontentbtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="21dp"
+        android:text="搜索蓝牙"
+        android:textSize="25sp" />
+
+    <TextView
+        android:id="@+id/TextView01"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:text="2019年4月24"
+        android:textColor="#000000"
+        android:textSize="15sp" />
+
+    <TextView
+        android:id="@+id/TextView02"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:text="蓝牙控制四路继电器设计"
+        android:textColor="#000000"
+        android:textSize="15sp" />
+
+</RelativeLayout>
